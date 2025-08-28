@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Membership descriptions</title>
+
+    <link rel="stylesheet" type="text/css" href='../shared/ccc.css' />
+    <script src="../shared/ccc.js" language="javascript" type="text/javascript"></script>
+
+    <script language="javascript" type="text/javascript">
+
+        function OnTryItBtn() {
+            var strURL = "http://www.corel.com/corel/ipm/redirect/index.jsp" + getParamString() + "&wf=ft";
+            location = strURL;
+        }
+
+    </script>
+
+    <style type="text/css">
+        
+        div
+        {
+            font-size: 14px;
+            padding: 10px 12px 10px 12px;
+        }
+        td
+        {
+            font-size: 14px;
+            padding: 10px 12px 10px 12px;
+            vertical-align: top;
+        }
+        h1
+        {
+            font-size: 23px;
+            font-weight: normal;
+            margin-bottom: 8px;
+        }
+        h2
+        {
+            font-size: 20px;
+            font-weight: normal;
+            font-style: normal;
+            margin-bottom: 8px;
+        }
+        ul { padding-left: 20px; }
+        li { font-size: 13px; }
+        .dynEl { display: none; }       
+        .indicator { color: #1F497D; }
+        .err { background-color: #FF6835; border: 1px solid black; }
+        #idTryIt { cursor: hand; color: Navy; font-size: 12px; text-decoration: underline; }
+    </style>
+
+</head>
+<body>
+
+<div id="pcu_data" style="display:none">PageDimension: 974,650</div><button style="display:none;" id='pcubtncancel' name='pcubtncancel'  onclick="location='pcucmd://Cancel?confirm=no'"></button>
+
+<div id="idBanner" style="background-color: Black;"><img alt="" src="../shared/images/banner.jpg" /></div>
+
+
+<div id="idTitle">
+</div> <!-- idTitle -->
+
+
+<div id="idPremiumTrial" style="padding-left: 0px; padding-top: 0px; margin-top: 50px;">
+    <table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td><img alt="" src="../shared/images/badgepro.png" /></td>
+            <td style="width: 600px;">
+                <h2>You are about to enable your Premium  Membership Trial.</h2>
+                A Premium Membership Trial allows you to access new Premium features and services as well as watermarked Premium content such as exclusive clipart, photos, and pattern fills.
+                <br />
+            </td>
+            <td style="padding-left: 0px; vertical-align: middle;">
+                <div id="idProTrialBtn" style="width:100%; margin-left: 55px;">
+                    <span class="largeBlueBtn" onclick="OnTryItBtn();" title="">
+                        <span class="largeBlueBtnLeft"></span>
+                        <span class="largeBlueBtnMid" style=" padding-left: 3px; padding-right: 3px;">Continue</span>
+                        <span class="largeBlueBtnRight"></span>
+                    </span>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div> <!-- id="idPremium" -->
+
+
+</body>
+</html>
+

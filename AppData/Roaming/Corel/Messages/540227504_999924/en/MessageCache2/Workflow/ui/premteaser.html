@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>CorelDRAW Graphics Suite</title>
+
+    <link rel="stylesheet" type="text/css" href='../shared/ccc.css' />
+    <script src="../shared/ccc.js" language="javascript" type="text/javascript"></script>
+
+    <script language="javascript" type="text/javascript">
+
+        function OnBodyLoad() {
+        }
+
+        function OnLearnMore() {
+            location = "memberships.html";
+        }
+
+        function OnOK() {
+            location = "pcucmd://Continue"
+        }
+
+    </script>
+
+    <style type="text/css">
+        
+        div
+        {
+            font-size: 14px;
+            padding: 10px 12px 10px 12px;
+        }
+        
+    </style>
+
+</head>
+<body style="overflow: hidden;" onload="OnBodyLoad();">
+
+<div id="pcu_data" style="display:none">PageDimension: 455,200</div><button style="display:none;" id='pcubtncancel' name='pcubtncancel'  onclick="location='pcucmd://cancel?confirm=no'"></button>
+
+
+<div style="height: 85px;">
+    <div style="float: left; width: 40px;"><img alt="" src="../shared/images/badgepro.png" /></div>
+    <div style="margin-left: 80px;">
+        You need Premium Membership to use this feature. <br />
+        Learn more about <a href="#" onclick="OnLearnMore(); return false;">Premium features and services</a>
+    </div>
+</div>
+
+<div style="border-top: 1px dotted black; overflow: hidden; width: 430px;">
+    <div style=" margin-left: 7px; padding: 0px 0px 0px 8px;">To hide Premium features, click Help > Show Premium Features.</div>
+    <div style="margin-left: 330px; padding-top: 12px; width: 110px;">
+        <div id="idOK" style="width:106px; padding: 0px;">
+                <span class="largeBlueBtn" onclick="OnOK();">
+                    <span class="largeBlueBtnLeft"></span>
+                    <span class="largeBlueBtnMid" style="padding-right: 0px; padding-left: 0px;">OK</span>
+                    <span class="largeBlueBtnRight"></span>
+                </span>
+            </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+
